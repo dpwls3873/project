@@ -1,0 +1,85 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 80%;
+	margin: 30px auto;
+	text-align: center;
+	background: #999;
+	padding-left: 25px;
+}
+
+.logo {
+	float: left;
+	line-height: 60px;
+	color: darkblue;
+	letter-spacing: -1px;
+}
+
+nav .gnb {
+	height: 60px;
+}
+
+.gnb{
+	float: right;
+	line-height: 60px;
+	position: relative;
+}
+
+.gnb li{
+	float: left;
+}
+
+.gnb li a{
+	/* 패딩 높이 값이 마우스 엔터시 호버영역에 포함됨*/
+	padding: 0 25px;
+	display: block;
+}
+
+/*서브메뉴*/
+.submenu {
+	width: 100%;
+	background: #666;
+	display: none;
+	transition: all .3s;
+}
+
+.submenu p:hover{
+	background: #444;
+}
+
+.submenu a{
+	font-size: 13px;
+	color: #222;
+	display: block;
+}
+
+
+/*3depth*/
+.submenu_a{
+	background: #555;
+	transition: all .3s;
+	display: none;
+	position: absolute;
+	left: 130px;
+	top: 150px;
+}
+
+.submenu_a p:hover{
+	background: #444;
+}
+
+.submenu_a a{
+	font-size: 13px;
+	color: #222;
+	display: block;
+}

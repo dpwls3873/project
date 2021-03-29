@@ -1,0 +1,155 @@
+@charset"utf-8";
+/*css초기화*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockpuote, pre, abbr, address, cite, code, del, em, img, ins, kdb, q, small, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li,  fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcation, figure, footer,header, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    background: none;
+    vertical-align: baseline;
+    
+}
+
+/*html 요소들을 IE 구버전에서 정상적으로 작동되도록 설정*/
+
+article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+}
+
+/*list 관련 스타일*/
+ul, li {
+   list-style: none;
+}
+
+/*a관련 스타일*/
+
+a{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    text-decoration: none;
+    background: none;
+    color: inherit;
+}
+
+/*img관련 스타일*/
+img{
+    vertical-align: top;
+}
+
+/*반응형템플릿 기본스타일*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+
+
+/*hr관련스타일 짧은구분선 */
+hr {
+    display: block;
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+/*input, textarea 관련 스타일*/
+input, textarea{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+}
+
+
+input, textarea{
+    
+    border-bottom: 1px solid #757575;
+    color: #3F51B5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12PX;
+    border-radius: 0;
+}
+
+/*박스사이징*/
+
+*{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.cf:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*IE 8이하 버전 float해제*/
+clear_both{
+	zoom:1;
+}
+
+.blind {
+	display: inline-block;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+legend {
+	position: absolute;
+	left: -9999px;
+}
+
+caption{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
